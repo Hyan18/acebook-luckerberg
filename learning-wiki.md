@@ -11,6 +11,12 @@ Acebook - Team Luckerberg
  
 ## <a name="Harrison">Harrison Yan</a>
 
+Using rails:
+```
+rails generate model User name:string password:string
+```
+Creates user model, spec and migration (with rows name and password)
+
 ## <a name="Ben">Ben Sheridan-Edwards</a>
 
 ## <a name="Dawid">Dawid Szpener</a>
