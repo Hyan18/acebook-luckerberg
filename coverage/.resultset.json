@@ -51,6 +51,14 @@
         1,
         15,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/bensheridanedwards/Documents/2019/Makers/Main-Course/Week-8&9/Acebook - Luckerberg/acebook-luckerberg/app/controllers/sessions_controller.rb": [
@@ -76,8 +84,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null
@@ -153,6 +161,6 @@
         0
       ]
     },
-    "timestamp": 1579106282
+    "timestamp": 1579163169
   }
 }

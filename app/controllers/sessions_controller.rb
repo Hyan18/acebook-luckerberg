@@ -14,8 +14,8 @@ class SessionsController < ApplicationController
       session[:user_id] = @user.id
       redirect_to '/posts' 
     else
-      flash.now.alert = "Invalid email or password"
-      redirect_to '/login'
+      flash.now[:danger] = 'Invalid email/password combination'
+      render 'new'
     end
   end
 
