@@ -2,6 +2,10 @@ class PostsController < ApplicationController
 
   before_action :require_login, only: [:index, :show]
 
+  def index
+    @posts = Post.all.order("created_at DESC")
+  end
+
   def new
     @post = Post.new
   end
@@ -25,13 +29,9 @@ class PostsController < ApplicationController
 
   def update
     @post = Post.find(params[:id])
+    wall_id = @post.wall_id
 
-    redirect_to posts_url if @post.update(post_params)
-
-  end
-
-  def index
-    @posts = Post.all.order("created_at DESC")
+    redirect_to '/' + "#{wall_id}" if @post.update(post_params)
   end
 
   def find_user(post_id)
@@ -41,8 +41,9 @@ class PostsController < ApplicationController
 
   def delete
     @post = Post.find(params[:format])
+    wall_id = @post.wall_id
     @post.destroy
-    redirect_to posts_url
+    redirect_to '/' + "#{wall_id}" 
   end
 
   private
@@ -52,8 +53,8 @@ class PostsController < ApplicationController
   end
 
   def try_edit(post)
-    if Time.now - @post.created_at > 600
-      redirect_to '/posts', notice: "Cannot edit post after 10 minutes"
+    if Time.now - post.created_at > 600
+      redirect_to '/' + "#{post.wall_id}", notice: "Cannot edit post after 10 minutes"
     else
       edit_post_path(post)
     end

@@ -11,7 +11,6 @@ class ApplicationController < ActionController::Base
 
   def find_name(user_id)
     @user = User.find_by({ id: user_id})
-    p @user
     return @user.name
   end
 
