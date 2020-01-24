@@ -23,15 +23,14 @@ Acebook - Team Luckerberg
   * AGILE process through two day sprints
 
   #####Week 2
-  Last week I ended up not using much Rails as I was mostly setting up the CI/CD pipelines
+  Last week I ended up not using much Rails as I was mostly setting up the CI/CD pipelines so I went into this week with the aim of using more Rails. 
 
   Things I learnt:
   
-  * Rails generate model/controller/migration
-  * Setting up Travis with a database and autodeployment to Heroku
-  * Setting up Heroku and looking through logs
-  * AGILE process through two day sprints
-
+  * Using Rails nested resources
+  * Rendering partials in a view
+  * Using AJAX requests with Rails forms
+  * Setting up Selenium to test for Javascript
 
 ## <a name="Ben">Ben Sheridan-Edwards</a>
 
