@@ -35,7 +35,9 @@ Acebook - Team Luckerberg
 ## <a name="Eve">Eve Noirault</a>    
 #### Week 1   
 
-
+ * Setting up the CI/CD pipelines
+ * Rails folder structure
+ * Learned about Heroku deployment
 
 #### Week 2   
 
