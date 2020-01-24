@@ -19,9 +19,9 @@ class PostsController < ApplicationController
     @post = Post.create(post_params)
     @post.user_id = current_user[:id]
     @post.save
-    
+
     if @post.wall_id
-      redirect_to '/' + "#{@post.wall_id}" 
+      redirect_to '/' + "#{@post.wall_id}"
     else
       redirect_to '/posts'
     end
