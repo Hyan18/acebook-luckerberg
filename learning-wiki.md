@@ -11,11 +11,27 @@ Acebook - Team Luckerberg
  
 ## <a name="Harrison">Harrison Yan</a>
 
-Using rails:
-```
-rails generate model User name:string password:string
-```
-Creates user model, spec and migration (with rows name and password)
+  #####Week 1
+  Even though we were told to expect a rocky start it still felt bad that our progress was quite slow since we also had to go about learning Rails.
+  Started getting better later on in the week but then ran into an issue with Heroku that we spent quite a lot of time stumped on but allowed us to better understand Heroku and understand the logs.
+
+  Things I learnt:
+  
+  * Rails generate model/controller/migration
+  * Setting up Travis with a database and autodeployment to Heroku
+  * Setting up Heroku and looking through logs
+  * AGILE process through two day sprints
+
+  #####Week 2
+  Last week I ended up not using much Rails as I was mostly setting up the CI/CD pipelines
+
+  Things I learnt:
+  
+  * Rails generate model/controller/migration
+  * Setting up Travis with a database and autodeployment to Heroku
+  * Setting up Heroku and looking through logs
+  * AGILE process through two day sprints
+
 
 ## <a name="Ben">Ben Sheridan-Edwards</a>
 
