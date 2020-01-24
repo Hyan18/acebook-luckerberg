@@ -11,7 +11,7 @@ Acebook - Team Luckerberg
  
 ## <a name="Harrison">Harrison Yan</a>
 
-  #####Week 1
+##### Week 1
   Even though we were told to expect a rocky start it still felt bad that our progress was quite slow since we also had to go about learning Rails.
   Started getting better later on in the week but then ran into an issue with Heroku that we spent quite a lot of time stumped on but allowed us to better understand Heroku and understand the logs.
 
@@ -22,7 +22,7 @@ Acebook - Team Luckerberg
   * Setting up Heroku and looking through logs
   * AGILE process through two day sprints
 
-  #####Week 2
+##### Week 2
   Last week I ended up not using much Rails as I was mostly setting up the CI/CD pipelines so I went into this week with the aim of using more Rails. 
 
   Things I learnt:
@@ -36,7 +36,7 @@ Acebook - Team Luckerberg
 
 ## <a name="Dawid">Dawid Szpener</a>
 
-  #####Week 1
+##### Week 1
   The learning curve was kind of slow, too many new things to learn.
 
 
