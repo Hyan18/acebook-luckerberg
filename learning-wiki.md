@@ -68,3 +68,24 @@ Acebook - Team Luckerberg
 ## <a name="Eve">Eve Noirault</a>
 
 ## <a name="Julie">Julie Cheng</a>
+
+##### Week 1
+  In the first week we tried to get our head aroud Rails, we created user/session controller/model/migration to build sign in and log out functions. Instead of using gems, we built it from scratch which caused us problems deploying to Heroku. Harrison managed to fix it. We leart how to use Rails during the process.
+  
+  Useful links for building Authentication:
+  
+  http://railscasts.com/episodes/250-authentication-from-scratch
+  
+  https://www.codecademy.com/learn/rails-auth
+  
+  Things I learnt:
+  
+  * Rails generate model/controller/migration
+  * Writing feature tests 
+
+##### Week 2
+  Second week we were working on the individual walls for users.
+
+  Things I learnt:
+  
+  * Primary keys/foreign keys
