@@ -32,6 +32,14 @@ Acebook - Team Luckerberg
   * How to co-operate better in team environment
 
 
-## <a name="Eve">Eve Noirault</a>
+## <a name="Eve">Eve Noirault</a>    
+#### Week 1   
+
+
+
+#### Week 2   
+
+
+
 
 ## <a name="Julie">Julie Cheng</a>
