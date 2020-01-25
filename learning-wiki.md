@@ -49,10 +49,14 @@ Acebook - Team Luckerberg
 ## <a name="Dawid">Dawid Szpener</a>
 
 ##### Week 1
+
   The learning curve was kind of slow, too many new things to learn.
 
 
   Despite this fact we managed to do well, both in terms of specifications and team-work.
+
+
+##### Week 1
 
 
   Few things I learned on week 1:
@@ -63,6 +67,21 @@ Acebook - Team Luckerberg
   * Setting up heroku
   * Using github comfortably
   * How to co-operate better in team environment
+
+
+##### Week 2
+
+
+  Few things I learned on week 2:
+
+
+  * Ajax in rails
+  * Some css
+  * How to manage team problems more effectively
+  * How to rely on team-mates
+  * How to achieve personal goals in team ENV
+  * Coding dynamics as a team in general
+
 
 
 ## <a name="Eve">Eve Noirault</a>
